@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGS_Upskill", "PGS_Upskill\PGS_Upskill.csproj", "{8DDA626F-3D1C-4EE9-BD2A-542337E3821E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncDemo", "AsyncDemo\AsyncDemo.csproj", "{A3DED5C1-7A3E-4E9F-AEDF-3DB5B6E7939C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CastingTraining", "CastingTraining\CastingTraining.csproj", "{26EF9109-2DAA-497A-8D96-0B0A2F24A25D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesEvents", "DelegatesEvents\DelegatesEvents.csproj", "{F7157A7F-8C2D-4FC1-9ECC-4D68D462877F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqTraining", "LinqTraining\LinqTraining.csproj", "{D2D45851-1421-4E4B-811B-15E0558593C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Training_aggregation_composition_ref_out", "Training_aggregation_composition_ref_out\Training_aggregation_composition_ref_out.csproj", "{DE5F380D-4E50-4C51-9109-C662367EAA90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8DDA626F-3D1C-4EE9-BD2A-542337E3821E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8DDA626F-3D1C-4EE9-BD2A-542337E3821E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8DDA626F-3D1C-4EE9-BD2A-542337E3821E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8DDA626F-3D1C-4EE9-BD2A-542337E3821E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3DED5C1-7A3E-4E9F-AEDF-3DB5B6E7939C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3DED5C1-7A3E-4E9F-AEDF-3DB5B6E7939C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3DED5C1-7A3E-4E9F-AEDF-3DB5B6E7939C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3DED5C1-7A3E-4E9F-AEDF-3DB5B6E7939C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26EF9109-2DAA-497A-8D96-0B0A2F24A25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26EF9109-2DAA-497A-8D96-0B0A2F24A25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26EF9109-2DAA-497A-8D96-0B0A2F24A25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26EF9109-2DAA-497A-8D96-0B0A2F24A25D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7157A7F-8C2D-4FC1-9ECC-4D68D462877F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7157A7F-8C2D-4FC1-9ECC-4D68D462877F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7157A7F-8C2D-4FC1-9ECC-4D68D462877F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7157A7F-8C2D-4FC1-9ECC-4D68D462877F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2D45851-1421-4E4B-811B-15E0558593C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D45851-1421-4E4B-811B-15E0558593C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D45851-1421-4E4B-811B-15E0558593C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D45851-1421-4E4B-811B-15E0558593C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE5F380D-4E50-4C51-9109-C662367EAA90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE5F380D-4E50-4C51-9109-C662367EAA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE5F380D-4E50-4C51-9109-C662367EAA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE5F380D-4E50-4C51-9109-C662367EAA90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
