@@ -11,12 +11,6 @@ namespace Training_aggregation_composition_ref_out
 
             SetToFive(out value);
 
-            Console.WriteLine(value);
-
-            int value2 = 1;
-            //always has to be initialized before passed to a method
-            Increment(ref value2);
-
             //boxing
             //10x slower
             object valueBoxed = value;
@@ -35,22 +29,16 @@ namespace Training_aggregation_composition_ref_out
 
             var car = new Car(engine, wheelLeftFront, wheelLeftRear, wheelRightFront, wheelRightRear);
 
-
             //composition
             var person = new Person();
 
             Console.Read();
         }
 
-        private static void SetToFive(out  int value)
+        private static void SetToFive(out int value)
         {
             //has to be initialized, not only modified
             value = 5;
-        }
-
-        private static void Increment(ref int value2)
-        {
-            value2++;
         }
     }
 }

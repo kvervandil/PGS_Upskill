@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Dynamic;
 using System.Text;
 
-namespace CastingTraining
+namespace ExpandoAndDynamicObject
 {
     public class CustomWrapper : DynamicObject
     {
