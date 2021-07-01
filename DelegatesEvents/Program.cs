@@ -1,21 +1,30 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace DelegatesEvents
+namespace DelegatesEvents_3
 {
-    class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var manager = new AgendaManager();
+            var smsSender = new SmsSender();
 
-            var test = new EventsTesting(5);
+            manager.AddedAgenda += smsSender.OnAddedAgenda;
+            manager.AddedAgenda += smsSender.OnAddedAgendaShorter;
+            manager.AddedAgendaShorter += smsSender.OnAddedAgendaShorter;
+            manager.AddedAgendaShorter += smsSender.OnAddedAgenda;
 
-            test.SetValue(5);
-            test.SetValue(8);
-            test.SetValue(19);
-            test.SetValue(19);
+            manager.AddAgenda(new Agenda
+            {
+                AgendaDateTime = DateTime.Now.AddDays(2),
+                AgendaName = "Kubuś Puchatek i przyjaciele"
+            });
 
-            Console.ReadKey();
+            Console.Read();
         }
     }
 }

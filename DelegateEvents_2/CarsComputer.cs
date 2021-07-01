@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DelegatesEvents
+namespace DelegatesEvents_2
 {
     public class CarsComputer
     {
